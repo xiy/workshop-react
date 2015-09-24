@@ -1,5 +1,4 @@
 var React = require("react");
-var Timesheet = require("timesheet");
 
 var Tick = React.createClass({
   getInitialState: function() {
@@ -44,8 +43,6 @@ var Tick = React.createClass({
 
           <button type="submit" onClick={this.handleClick}>Tick!</button>
         </div>
-
-        <Timesheet timeSheet={this.state.timeSheet} />
       </div>
     );
   }
