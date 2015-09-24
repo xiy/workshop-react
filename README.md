@@ -30,9 +30,9 @@ Assumes you have git, node (> 0.10.x) and npm (> 2.5.1) installed.
 The workshop will be run in mini 'sprints'.
 Git branches will be used to separate each stage of the app.
 
-master: Complete goal app
-step-one: Starting point
-step-two: Main component built
-step-three: Form component built
-step-four: Timesheet component built
-step-five: Tickometer component built
+* `master`: Complete goal app
+* `step-one`: Starting point
+* `step-two`: Main component built
+* `step-three`: Form component built
+* `step-four`: Timesheet component built
+* `step-five`: Tickometer component built + app done
