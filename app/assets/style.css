@@ -1,5 +1,10 @@
+html {
+    height: 100%;
+}
 
 body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   font-family: "Helvetica Neue", "Open Sans", Arial, sans-serif;
   font-size: 24px;
   background: -webkit-linear-gradient(white, #ccc); /* For Safari 5.1 to 6.0 */
