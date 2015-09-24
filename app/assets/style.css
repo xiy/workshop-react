@@ -1,4 +1,31 @@
 
+body {
+  font-family: "Helvetica Neue", "Open Sans", Arial, sans-serif;
+  font-size: 24px;
+  background: -webkit-linear-gradient(white, #ccc); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(white, #ccc); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(white, #ccc); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(white, #ccc); /* Standard syntax */
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  width: 800px;
+}
+
+h1 {
+	margin-bottom: 0;
+}
+
+h2 {
+	font-size: 25px;
+}
+
+#content {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
 #tickometer {
 	display: block;
 	background: transparent url(images/tickometer.png) no-repeat;
@@ -15,3 +42,7 @@
 #tickometer.almost-all-the-things { background-position: 0 -560px; }
 #tickometer.amazeballs { background-position: 0 -700px; }
 
+#timesheet { width: 200px; }
+#timesheet ul { list-style: none;  }
+#timesheet ul li { }
+#timesheet ul li p { padding:4px; font-size: 16px; border-left: 5px solid #999; }
