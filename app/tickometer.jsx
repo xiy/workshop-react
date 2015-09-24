@@ -27,8 +27,8 @@ module.exports = React.createClass({displayName: 'Tickometer',
 
     return (
       <div>
-      <div id="tickometer" className={tickStatus}> </div>
-      <span id="hours">{hours} hours filled in.</span>
+        <div id="tickometer" className={tickStatus}> </div>
+        <span id="hours">{hours} hours filled in.</span>
       </div>
     );
   }
