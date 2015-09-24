@@ -1,0 +1,17 @@
+
+#tickometer {
+	display: block;
+	background: transparent url(images/tickometer.png) no-repeat;
+	width: 800px;
+	height: 140px;
+	padding: 0;
+	margin: 0;
+}
+
+#tickometer.lazy-git { background-position: 0px 0px; }
+#tickometer.crap { background-position: 0 -140px; }
+#tickometer.betterer { background-position: 0 -280px; }
+#tickometer.much-excite { background-position: 0 -420px; }
+#tickometer.almost-all-the-things { background-position: 0 -560px; }
+#tickometer.amazeballs { background-position: 0 -700px; }
+
