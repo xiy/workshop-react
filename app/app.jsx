@@ -1,5 +1,4 @@
 var React = require("react");
-var Tickometer = require("tickometer");
 var Timesheet = require("timesheet");
 
 var Tick = React.createClass({
@@ -34,8 +33,6 @@ var Tick = React.createClass({
       <div id="tick">
         <h1>Tock!</h1>
         <h2>Don't tick the boss off.</h2>
-
-        <Tickometer hours={this.state.hours} />
 
         <div id="tempInput">
           <select ref="project" id="projects">
