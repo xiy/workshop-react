@@ -32,7 +32,9 @@ var Tick = React.createClass({
   render: function() {
     return (
       <div id="tick">
-        <h1>Tick Tock</h1>
+        <h1>Tock!</h1>
+        <h2>Don't tick the boss off.</h2>
+
         <Tickometer hours={this.state.hours} />
 
         <div id="tempInput">
